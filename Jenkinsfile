@@ -7,7 +7,7 @@ pipeline {
                 echo 'Featching'
             }
         }
-        tage('Build') {
+        stage('Build') {
             steps {
                 echo 'Build is Completed'
             }
